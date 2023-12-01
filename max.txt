@@ -1,0 +1,6 @@
+#python
+maxx = -10000
+for i in range(len(список)):
+	if список[i] > maxx:
+		maxx = список[i]
+print(maxx)
