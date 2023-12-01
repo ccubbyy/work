@@ -1,0 +1,10 @@
+#python
+l = int(input("Введите кол-во элементов в массиве "))
+a = []
+for i in range(l):
+	a = a.append(int(input())
+maxx = -10000
+for j in range (len(a)):
+	if a[j] > maxx:
+		maxx = a[j]
+print(maxx)
